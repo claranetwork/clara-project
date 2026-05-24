@@ -1,0 +1,39 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-gradient-purple text-foreground;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply relative px-4 py-2 text-gray-300 hover:text-white transition-colors duration-200;
+  }
+  
+  .nav-link::after {
+    @apply content-[''] absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-0.5 bg-gradient-to-r from-purple-500 to-pink-500 transition-all duration-300;
+  }
+  
+  .nav-link:hover::after {
+    @apply w-3/4;
+  }
+  
+  .nav-link.active {
+    @apply text-white;
+  }
+  
+  .nav-link.active::after {
+    @apply w-3/4;
+  }
+  
+  .glass-navbar {
+    @apply bg-gradient-purple-dark/90 backdrop-blur-xl border-b border-purple-900/30;
+  }
+}

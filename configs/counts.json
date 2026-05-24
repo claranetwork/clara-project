@@ -1,0 +1,14 @@
+[
+  {
+    "label": "Users", 
+    "count": 5,
+    "suffix": "K+" 
+  },
+  
+  {
+    "label": "Integrated", 
+    "count": 5, 
+    "suffix": "+"
+  }
+]
+

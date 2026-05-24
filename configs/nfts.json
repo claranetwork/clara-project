@@ -1,0 +1,2357 @@
+[
+  
+  {
+    "id": 1,
+    "hash": "access",
+    "name": "ACCESS PASS",
+    "chain": "BASE",
+    "chainID": 8453,
+    "address": "0x87DC0a9455f00C6426877cD5b8A7E14404acf748",
+    "explorerURI": "https://basescan.org/address/0x87DC0a9455f00C6426877cD5b8A7E14404acf748",
+   "description": "🔥 **ACCESS PASS** 🔥<br/>Free For first 100 Minters <br/>🚀Early-access PASS ROLE🏆<br/>🎁 Experience exclusive seasonal benefits and giveaways",
+    "imageURI": "/images/nfts/access.png",
+    "symbol": "ETH",
+    "price": 0.001,
+    "tags": "starbound",
+    "priority": 1
+  }
+
+
+
+
+  ,
+
+
+
+
+
+  {
+    "id": 2,
+    "hash": "zeno",
+    "name": "ZENO",
+    "chain": "Tempo Testnet",
+    "chainID": 42429 ,
+    "address": "0x009F3dF0871C3773Cc65976B010E147BCd0a7bFD",
+    "explorerURI": "https://explore.tempo.xyz/address/0x009F3dF0871C3773Cc65976B010E147BCd0a7bFD?live=false",
+    "description": " **ZENO** 🔥<br/>A Nft on Tempo Testnet 💎<br/>🎁 Experience exclusive seasonal benefits and giveaways✨",
+    "imageURI": "/images/nfts/zeno.jpg",
+    "symbol": "USD",
+    "price": 0.0,
+    "tags": "phoenixar",
+    "faucetURI": "https://docs.tempo.xyz/quickstart/faucet#faucet",
+    "priority": 2,
+    "linkTo": "unidrive",
+    "tasks": [
+      {
+        "title": "Follow On Twitter",
+        "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+        "type": "twitter"
+      },
+      {
+        "title": "Retweet The Post",
+        "href": "https://x.com/intent/retweet?tweet_id=2009710744821215272",
+        "type": "retweet"
+      },
+         {
+        "title": "Claim ACCESS PASS",
+        "href": "https://www.clarachain.net/access",
+        "type": "claim"
+      }
+
+    ]
+    
+  }
+
+
+
+
+  ,
+
+
+
+
+  {
+  "id": 3,
+  "hash": "apepe",
+  "name": "APEPE",
+  "chain": "Arc Testnet",
+  "chainID": 5042002,
+  "address": "0xA34CE078bA23739fd1F529a6Ac159FF68aE05Ad9",
+  "explorerURI": "https://testnet.arcscan.app/address/0xA34CE078bA23739fd1F529a6Ac159FF68aE05Ad9",
+  "description": " **APEPE** 🔥<br/>A Nft on Arc Testnet 💎<br/>🎁 Enjoy seasonal perks, giveaways & more ✨",
+  "imageURI": "/images/nfts/apepe.jpg",
+  "symbol": "USDC",
+  "price": 0.0,
+  "tags": "phoenixar",
+  "faucetURI": "https://thirdweb.com/arc-testnet",
+  "priority": 2,
+  "linkTo": "unidrive",
+  "tasks": [
+    {
+      "title": "Follow On Twitter",
+      "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+      "type": "twitter"
+    },
+    {
+      "title": "Retweet The Post",
+      "href": "https://x.com/intent/retweet?tweet_id=2010477674603671884",
+      "type": "retweet"
+    },
+       {
+      "title": "Claim ACCESS PASS",
+      "href": "https://www.clarachain.net/access",
+      "type": "claim"
+    }
+
+  ]
+
+}
+
+
+
+,
+
+
+
+
+
+{
+  "id": 4,
+  "hash": "elsie",
+  "name": "ELSIE",
+  "chain": "Tempo Testnet",
+  "chainID": 42429 ,
+  "address": "0x009F3dF0871C3773Cc65976B010E147BCd0a7bFD",
+  "explorerURI": "https://explore.tempo.xyz/address/0x009F3dF0871C3773Cc65976B010E147BCd0a7bFD?live=false",
+  "description": " **ELSIE** 🔥<br/>A Nft on Tempo Testnet 💎<br/>🎁 Experience exclusive seasonal benefits and giveaways✨",
+  "imageURI": "/images/nfts/elsie.png",
+  "symbol": "USD",
+  "price": 0.0,
+  "tags": "phoenixar",
+  "faucetURI": "https://docs.tempo.xyz/quickstart/faucet#faucet",
+  "priority": 2,
+  "linkTo": "unidrive",
+  "tasks": [
+    {
+      "title": "Follow On Twitter",
+      "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+      "type": "twitter"
+    },
+    {
+      "title": "Retweet The Post",
+      "href": "https://x.com/intent/retweet?tweet_id=2010709049155915912",
+      "type": "retweet"
+    },
+       {
+      "title": "Claim ACCESS PASS",
+      "href": "https://www.clarachain.net/access",
+      "type": "claim"
+    }
+
+  ]
+  
+}
+
+
+
+,
+
+
+
+
+
+{
+  "id": 5,
+  "hash": "tempo",
+  "name": "TEMPO CARD",
+  "chain": "Tempo Testnet",
+  "chainID": 42429 ,
+  "address": "0xCFad8c10a80562171997c2c22BD784d58e24e665",
+  "explorerURI": "https://explore.tempo.xyz/address/0x4fA0ee635Ab161D93641126a59F84c7ed3201E4d?live=false",
+  "description": " **TEMPO** 🔥<br/>A Nft on Tempo Testnet 💎<br/>🎁 Experience exclusive seasonal benefits and giveaways✨",
+  "imageURI": "/images/nfts/tempo.png",
+  "symbol": "USD",
+  "price": 0.0,
+  "tags": "phoenixar",
+  "faucetURI": "https://docs.tempo.xyz/quickstart/faucet#faucet",
+  "priority": 2,
+  "linkTo": "unidrive",
+  "tasks": [
+    {
+      "title": "Follow On Twitter",
+      "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+      "type": "twitter"
+    },
+    {
+      "title": "Retweet The Post",
+      "href": "https://x.com/intent/retweet?tweet_id=2011184685595185323",
+      "type": "retweet"
+    },
+       {
+      "title": "Claim ACCESS PASS",
+      "href": "https://www.clarachain.net/access",
+      "type": "claim"
+    }
+
+  ]
+  
+}
+
+
+
+  ,
+
+
+
+
+
+  {
+    "id": 6,
+    "hash": "zore",
+    "name": "ZORE",
+    "chain": "BASE",
+    "chainID": 8453 ,
+    "address": "0xA391b2DEaDb045A8b334F376Ff1e07df49b69290",
+    "explorerURI": "https://basescan.org/address/0xA391b2DEaDb045A8b334F376Ff1e07df49b69290",
+    "description": " **ZORE** 🔥<br/>A Nft on Tempo Testnet 💎<br/>🎁 Experience exclusive seasonal benefits and giveaways✨",
+    "imageURI": "/images/nfts/zore.jpg",
+    "symbol": "ETH",
+    "price": 0.0008,
+    "tags": "phoenixar",
+    "faucetURI": "https://docs.tempo.xyz/quickstart/faucet#faucet",
+    "priority": 2,
+    "linkTo": "unidrive",
+    "tasks": [
+      {
+        "title": "Follow On Twitter",
+        "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+        "type": "twitter"
+      },
+      {
+        "title": "Retweet The Post",
+        "href": "https://x.com/intent/retweet?tweet_id=2011469502660378838",
+        "type": "retweet"
+      },
+         {
+        "title": "Claim ACCESS PASS",
+        "href": "https://www.clarachain.net/access",
+        "type": "claim"
+      }
+
+    ]
+    
+  }
+
+
+
+
+  ,
+
+
+
+
+  {
+  "id": 7,
+  "hash": "lykoi",
+  "name": "LYKOI",
+  "chain": "Arc Testnet",
+  "chainID": 5042002,
+  "address": "0x97Eb5484A6785F24B6C70801E9a78EaDdE5CF5e3",
+  "explorerURI": "https://testnet.arcscan.app/address/0x97Eb5484A6785F24B6C70801E9a78EaDdE5CF5e3",
+  "description": " **LYKOI** 🔥<br/>A Nft on Arc Testnet 💎<br/>🎁 Enjoy seasonal perks, giveaways & more ✨",
+  "imageURI": "/images/nfts/lykoi.jpg",
+  "symbol": "USDC",
+  "price": 0.0,
+  "tags": "phoenixar",
+  "faucetURI": "https://thirdweb.com/arc-testnet",
+  "priority": 2,
+  "linkTo": "unidrive",
+  "tasks": [
+    {
+      "title": "Follow On Twitter",
+      "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+      "type": "twitter"
+    },
+    {
+      "title": "Retweet The Post",
+      "href": "https://x.com/intent/retweet?tweet_id=2011876753749524561",
+      "type": "retweet"
+    },
+       {
+      "title": "Claim ACCESS PASS",
+      "href": "https://www.clarachain.net/access",
+      "type": "claim"
+    }
+
+  ]
+
+}
+
+
+,
+
+
+
+
+{
+"id": 8,
+"hash": "robo",
+"name": "ROBO",
+"chain": "Arc Testnet",
+"chainID": 5042002,
+"address": "0x2985CD6FE4ddF04aA568860FBAA4C848Be4b7dF2",
+"explorerURI": "https://testnet.arcscan.app/address/0x2985CD6FE4ddF04aA568860FBAA4C848Be4b7dF2",
+"description": " **ROBO** 🔥<br/>A Nft on Arc Testnet 💎<br/>🎁 Enjoy seasonal perks, giveaways & more ✨",
+"imageURI": "/images/nfts/robo.jpg",
+"symbol": "USDC",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://thirdweb.com/arc-testnet",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2011876753749524561",
+    "type": "retweet"
+  },
+     {
+    "title": "Claim ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+
+
+
+
+,
+
+
+
+
+{
+"id": 9,
+"hash": "zenith",
+"name": "ZENITH",
+"chain": "Arc Testnet",
+"chainID": 5042002,
+"address": "0x236829Ddbe7Fe763C6374CBb97271e95Aa0E6Cf2",
+"explorerURI": "https://testnet.arcscan.app/address/0x236829Ddbe7Fe763C6374CBb97271e95Aa0E6Cf2",
+"description": " **ZENITH** 🔥<br/>A Nft on Arc Testnet 💎<br/>🎁 Enjoy seasonal perks, giveaways & more ✨",
+"imageURI": "/images/nfts/zenith.jpg",
+"symbol": "USDC",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://thirdweb.com/arc-testnet",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2013338366293487775",
+    "type": "retweet"
+  },
+     {
+    "title": "Claim ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+
+
+
+,
+
+
+
+
+
+{
+  "id": 10,
+  "hash": "elysia",
+  "name": "ELYSIA",
+  "chain": "Tempo Testnet",
+  "chainID": 42429 ,
+  "address": "0xCFad8c10a80562171997c2c22BD784d58e24e665",
+  "explorerURI": "https://explore.tempo.xyz/address/0x4fA0ee635Ab161D93641126a59F84c7ed3201E4d?live=false",
+  "description": " **ELYSIA** 🔥<br/>A Nft on Tempo Testnet 💎<br/>🎁 Experience exclusive seasonal benefits and giveaways✨",
+  "imageURI": "/images/nfts/elysia.jpg",
+  "symbol": "USD",
+  "price": 0.0,
+  "tags": "phoenixar",
+  "faucetURI": "https://docs.tempo.xyz/quickstart/faucet#faucet",
+  "priority": 2,
+  "linkTo": "unidrive",
+  "tasks": [
+    {
+      "title": "Follow On Twitter",
+      "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+      "type": "twitter"
+    },
+    {
+      "title": "Retweet The Post",
+      "href": "https://x.com/intent/retweet?tweet_id=2014428279873446018",
+      "type": "retweet"
+    },
+       {
+      "title": "Claim ACCESS PASS",
+      "href": "https://www.clarachain.net/access",
+      "type": "claim"
+    }
+
+  ]
+  
+}
+
+
+
+,
+
+
+
+
+{
+"id": 11,
+"hash": "aurelia",
+"name": "AURELIA",
+"chain": "Arc Testnet",
+"chainID": 5042002,
+"address": "0x41965A006601E078A426206d50F3BC03384b2200",
+"explorerURI": "https://testnet.arcscan.app/address/0x41965A006601E078A426206d50F3BC03384b2200",
+"description": " **AURELIA** 🔥<br/>A Nft on Arc Testnet 💎<br/>🎁 Enjoy seasonal perks, giveaways & more ✨",
+"imageURI": "/images/nfts/aurelia.jpg",
+"symbol": "USDC",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://thirdweb.com/arc-testnet",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2014977540386116034",
+    "type": "retweet"
+  },
+     {
+    "title": "Claim ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+
+
+
+
+
+,
+
+
+
+
+
+{
+  "id": 12,
+  "hash": "liora",
+  "name": "LIORA",
+  "chain": "Tempo Testnet",
+  "chainID": 42429 ,
+  "address": "0xCFad8c10a80562171997c2c22BD784d58e24e665",
+  "explorerURI": "https://explore.tempo.xyz/address/0x4fA0ee635Ab161D93641126a59F84c7ed3201E4d?live=false",
+  "description": " **LIORA** 🔥<br/>A Nft on Tempo Testnet 💎<br/>🎁 Experience exclusive seasonal benefits and giveaways✨",
+  "imageURI": "/images/nfts/liora.jpg",
+  "symbol": "USD",
+  "price": 0.0,
+  "tags": "phoenixar",
+  "faucetURI": "https://docs.tempo.xyz/quickstart/faucet#faucet",
+  "priority": 2,
+  "linkTo": "unidrive",
+  "tasks": [
+    {
+      "title": "Follow On Twitter",
+      "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+      "type": "twitter"
+    },
+    {
+      "title": "Retweet The Post",
+      "href": "https://x.com/intent/retweet?tweet_id=2015356534558224701",
+      "type": "retweet"
+    },
+       {
+      "title": "Claim ACCESS PASS",
+      "href": "https://www.clarachain.net/access",
+      "type": "claim"
+    }
+
+  ]
+  
+}
+
+
+
+,
+
+
+
+
+{
+"id": 13,
+"hash": "arwen",
+"name": "ARWEN",
+"chain": "Arc Testnet",
+"chainID": 5042002,
+"address": "0x1856E0b371D79f80cD531DEda79B4b4A481FE4D7",
+"explorerURI": "https://testnet.arcscan.app/address/0x1856E0b371D79f80cD531DEda79B4b4A481FE4D7",
+"description": " **ARWEN** 🔥<br/>A Nft on Arc Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/arwen.jpg",
+"symbol": "USDC",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://thirdweb.com/arc-testnet",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2015877609394209227",
+    "type": "retweet"
+  },
+     {
+    "title": "Claim ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+
+
+
+,
+
+
+
+
+
+
+{
+"id": 14,
+"hash": "zoe",
+"name": "ZOE",
+"chain": "Arc Testnet",
+"chainID": 5042002,
+"address": "0x08cEb34f286df38c92Fc0389979cAd394CCA9925",
+"explorerURI": "https://testnet.arcscan.app/address/0x08cEb34f286df38c92Fc0389979cAd394CCA9925",
+"description": " **ZOE** 🔥<br/>A Nft on Arc Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/zoe.png",
+"symbol": "USDC",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://thirdweb.com/arc-testnet",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2017268642149458230",
+    "type": "retweet"
+  },
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+
+
+,
+
+
+
+
+
+
+{
+"id": 15,
+"hash": "colorist",
+"name": "COLORIST",
+"chain": "Arc Testnet",
+"chainID": 5042002,
+"address": "0xaeBe24aFD521aa82504C609814D50DfE907947E5",
+"explorerURI": "https://testnet.arcscan.app/address/0xaeBe24aFD521aa82504C609814D50DfE907947E5",
+"description": " **COLORIST** 🔥<br/>A Nft on Arc Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/colorist.jpg",
+"symbol": "USDC",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://thirdweb.com/arc-testnet",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2018005199001178253",
+    "type": "retweet"
+  },
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+
+
+,
+
+
+
+
+
+
+{
+"id": 16,
+"hash": "amara",
+"name": "AMARA",
+"chain": "Arc Testnet",
+"chainID": 5042002,
+"address":  "0x7Bf3601E1a2a7cE08F407720942852340e54eC2c",
+"explorerURI": "https://testnet.arcscan.app/address/0x7Bf3601E1a2a7cE08F407720942852340e54eC2c",
+"description": " **AMARA** 🔥<br/>A Nft on Arc Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/amara.png",
+"symbol": "USDC",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://thirdweb.com/arc-testnet",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2020198579621753035",
+    "type": "retweet"
+  },
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+
+
+
+
+
+
+,
+
+
+
+
+
+
+{
+"id": 17,
+"hash": "riona",
+"name": "RIONA",
+"chain": "Arc Testnet",
+"chainID": 5042002,
+"address":  "0xf72488013c2Ae4eFF7DBd327d1CEB286DEDF3029",
+"explorerURI": "https://testnet.arcscan.app/address/0xf72488013c2Ae4eFF7DBd327d1CEB286DEDF3029",
+"description": " **RIONA** 🔥<br/>A Nft on Arc Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/riona.png",
+"symbol": "USDC",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://thirdweb.com/arc-testnet",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2022601446013956391",
+    "type": "retweet"
+  },
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+
+
+
+
+
+,
+
+
+
+
+
+
+{
+"id": 18,
+"hash": "solitude",
+"name": "SOLITUDE",
+"chain": "Robinhood Chain Testnet",
+"chainID": 46630,
+"address":  "0xA226cDd137c1412E0F4402e4D0BEb17CE3A5A727",
+"explorerURI": "https://explorer.testnet.chain.robinhood.com/",
+"description": " **SOLITUDE** 🔥<br/>A Nft on Robinhood Chain Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/solitude.jpg",
+"symbol": "ETH",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://thirdweb.com/arc-testnet",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2026987721827418404",
+    "type": "retweet"
+  },
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+
+
+
+
+,
+
+
+
+
+
+
+{
+"id": 19,
+"hash": "luka",
+"name": "LUKA",
+"chain": "Arc Testnet",
+"chainID": 5042002,
+"address":  "0xcC6be386Bef44e9D1DB44bBf731537fA72505e74",
+"explorerURI": "https://testnet.arcscan.app/address/0xcC6be386Bef44e9D1DB44bBf731537fA72505e74",
+"description": " **Luka** 🔥<br/>A Nft on Arc Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/luka.jpg",
+"symbol": "USDC",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://thirdweb.com/arc-testnet",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2022601446013956391",
+    "type": "retweet"
+  },
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+
+
+
+  ,
+
+
+
+
+
+
+{
+"id": 20,
+"hash": "swora",
+"name": "SWORA",
+"chain": "Robinhood Chain Testnet",
+"chainID": 46630,
+"address":  "0xfdc4bfe276a6008625cAC827C7e25c970083CB77",
+"explorerURI": "https://explorer.testnet.chain.robinhood.com/0xfdc4bfe276a6008625cAC827C7e25c970083CB77",
+"description": " **SWORA** 🔥<br/>A Nft on Robinhood Chain Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/swora.jpg",
+"symbol": "ETH",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://thirdweb.com/arc-testnet",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2026612749812511183",
+    "type": "retweet"
+  },
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+
+
+  ,
+
+
+
+
+
+
+{
+"id": 21,
+"hash": "parlor",
+"name": "PARLOR",
+"chain": "Arc Testnet",
+"chainID": 5042002,
+"address":  "0xFB7FE8Ca43B40743a552d2bB9608b30e4e51aA19",
+"explorerURI": "https://testnet.arcscan.app/address/0xFB7FE8Ca43B40743a552d2bB9608b30e4e51aA19",
+"description": " **PARLOR** 🔥<br/>A Nft on Arc Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/parlor.jpg",
+"symbol": "USDC",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://thirdweb.com/arc-testnet",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2022601446013956391",
+    "type": "retweet"
+  },
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+
+
+
+  ,
+
+
+
+
+
+{
+  "id": 22,
+  "hash": "tempura",
+  "name": "ELSIE",
+  "chain": "Tempo Testnet",
+  "chainID": 42431 ,
+  "address": "0xD278adeBF8C8c4b1dac74b1e906Db048a9740D9a",
+  "explorerURI": "https://explore.tempo.xyz/address/0x009F3dF0871C3773Cc65976B010E147BCd0a7bFD?live=false",
+  "description": " **ELSIE** 🔥<br/>A Nft on Tempo Testnet 💎<br/>🎁 Experience exclusive seasonal benefits and giveaways✨",
+  "imageURI": "/images/nfts/elsie.png",
+  "symbol": "USD",
+  "price": 0.0,
+  "tags": "phoenixar",
+  "faucetURI": "https://docs.tempo.xyz/quickstart/faucet#faucet",
+  "priority": 2,
+  "linkTo": "unidrive",
+  "tasks": [
+    {
+      "title": "Follow On Twitter",
+      "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+      "type": "twitter"
+    },
+    {
+      "title": "Retweet The Post",
+      "href": "https://x.com/intent/retweet?tweet_id=2010709049155915912",
+      "type": "retweet"
+    },
+       {
+      "title": "Claim ACCESS PASS",
+      "href": "https://www.clarachain.net/access",
+      "type": "claim"
+    }
+
+  ]
+  
+}
+
+  ,
+
+
+  {
+"id": 23,
+"hash": "orion",
+"name": "ORION",
+"chain": "Robinhood Chain Testnet",
+"chainID": 46630,
+"address":  "0x924E88122e06c6eCe0923732089b7fc7a5b544bc",
+"explorerURI": "https://explorer.testnet.chain.robinhood.com/0x924E88122e06c6eCe0923732089b7fc7a5b544bc",
+"description": " **ORION** 🔥<br/>A Nft on Robinhood Chain Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/orion.jpg",
+"symbol": "ETH",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://thirdweb.com/arc-testnet",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2028729318084583693",
+    "type": "retweet"
+  },
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+  
+
+
+
+
+
+  ,
+
+
+  {
+"id": 24,
+"hash": "kael",
+"name": "KAEL",
+"chain": "Robinhood Chain Testnet",
+"chainID": 46630,
+"address":  "0xc2DE1B9439b182817222876962c2a6cd1B3B0DB4",
+"explorerURI": "https://explorer.testnet.chain.robinhood.com/0xc2DE1B9439b182817222876962c2a6cd1B3B0DB4",
+"description": " **KAEL** 🔥<br/>A Nft on Robinhood Chain Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/kael.jpg",
+"symbol": "ETH",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://thirdweb.com/arc-testnet",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2029583385677693397",
+    "type": "retweet"
+  },
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+
+
+    ,
+
+
+
+
+
+
+{
+"id": 25,
+"hash": "valkyrie",
+"name": "VALKYRIE",
+"chain": "Arc Testnet",
+"chainID": 5042002,
+"address":  "0xa0d8107085a42d18FCE31497bdB5Ebd610ee35B5",
+"explorerURI": "https://testnet.arcscan.app/address/0xa0d8107085a42d18FCE31497bdB5Ebd610ee35B5",
+"description": " **VALKYRIE** 🔥<br/>A Nft on Arc Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/valkyrie.jpg",
+"symbol": "USDC",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://thirdweb.com/arc-testnet",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2030361798353059883",
+    "type": "retweet"
+  },
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+
+
+
+   ,
+
+
+  {
+"id": 26,
+"hash": "queenhood",
+"name": "QUEENHOOD",
+"chain": "Robinhood Chain Testnet",
+"chainID": 46630,
+"address":  "0xF66D6bEEF0d3915744aF731771e48C83688938bE",
+"explorerURI": "https://explorer.testnet.chain.robinhood.com/0xF66D6bEEF0d3915744aF731771e48C83688938bE",
+"description": " **QUEENHOOD** 🔥<br/>A Nft on Robinhood Chain Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/queenhood.jpg",
+"symbol": "ETH",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://thirdweb.com/arc-testnet",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2031797958212272236",
+    "type": "retweet"
+  },
+
+  {
+    "title": "Click here for Horocrux",
+    "href": "https://x.com/intent/retweet?tweet_id=2031847764179763621",
+    "type": "retweet"
+  },
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+
+  ,
+
+
+
+
+
+  {
+    "id": 27,
+    "hash": "locket",
+    "name": "SLYTHERIN LOCKET",
+    "chain": "BASE",
+    "chainID": 8453 ,
+    "address": "0xd9802568775c854e8BaE918C2F2fbCECD7fe2f1d",
+    "explorerURI": "https://basescan.org/address/0xd9802568775c854e8BaE918C2F2fbCECD7fe2f1d",
+    "description": " **SLYTHERIN LOCKET** 🔥<br/>A Nft on Base Testnet 💎<br/>🎁 Experience exclusive seasonal benefits and giveaways✨",
+    "imageURI": "/images/nfts/locket.jpg",
+    "symbol": "ETH",
+    "price": 0.0008,
+    "tags": "phoenixar",
+    "faucetURI": "https://docs.tempo.xyz/quickstart/faucet#faucet",
+    "priority": 2,
+    "linkTo": "unidrive",
+    "tasks": [
+      {
+        "title": "Follow On Twitter",
+        "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+        "type": "twitter"
+      },
+      {
+        "title": "Retweet The Post",
+        "href": "https://x.com/intent/retweet?tweet_id=2031847764179763621",
+        "type": "retweet"
+      },
+         {
+        "title": "Claim ACCESS PASS",
+        "href": "https://www.clarachain.net/access",
+        "type": "claim"
+      }
+
+    ]
+    
+  }
+
+
+   ,
+
+
+
+
+
+  {
+    "id": 28,
+    "hash": "libra",
+    "name": "LIBRA",
+    "chain": "PHAROS TESTNET",
+    "chainID": 688689 ,
+    "address": "0x6193a50b41B81610464A1bdC4599DB855d2d6b3b",
+    "explorerURI": "https://testnet.pharosscan.xyz",
+    "description": " **LIBRA** 🔥<br/>A Nft on Pharos Testnet 💎<br/>🎁 Experience exclusive seasonal benefits and giveaways✨",
+    "imageURI": "/images/nfts/libra.jpg",
+    "symbol": "PHRS",
+    "price": 0,
+    "tags": "phoenixar",
+    "faucetURI": "https://testnet.pharosnetwork.xyz/",
+    "priority": 2,
+    "linkTo": "unidrive",
+    "tasks": [
+      {
+        "title": "Follow On Twitter",
+        "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+        "type": "twitter"
+      },
+      {
+        "title": "Retweet The Post",
+        "href": "https://x.com/intent/retweet?tweet_id=2032394606709760472",
+        "type": "retweet"
+      },
+         {
+        "title": "Claim ACCESS PASS",
+        "href": "https://www.clarachain.net/access",
+        "type": "claim"
+      }
+
+    ]
+    
+  }
+
+ ,
+
+
+
+
+
+
+{
+"id": 29,
+"hash": "arcgold",
+"name": "ARC GOLD",
+"chain": "Arc Testnet",
+"chainID": 5042002,
+"address":  "0xad7224B8496056b59101368B9b6a19BBDFE71344",
+"explorerURI": "https://testnet.arcscan.app/address/0xad7224B8496056b59101368B9b6a19BBDFE71344",
+"description": " **ARC GOLD** 🔥<br/>A Nft on Arc Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/gold.jpg",
+"symbol": "USDC",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://thirdweb.com/arc-testnet",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2032512714644623657",
+    "type": "retweet"
+  },
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+
+
+   ,
+
+
+  {
+"id": 30,
+"hash": "moonqueen",
+"name": "MOON QUEEN",
+"chain": "Robinhood Chain Testnet",
+"chainID": 46630,
+"address":  "0xef14835A59F19A723b1988FE88be2C9D1bd6b3Ea",
+"explorerURI": "https://explorer.testnet.chain.robinhood.com/0xef14835A59F19A723b1988FE88be2C9D1bd6b3Ea",
+"description": " **MOON QUEEN** 🔥<br/>A Nft on Robinhood Chain Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/moon.jpg",
+"symbol": "ETH",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://thirdweb.com/arc-testnet",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2033280418632663314",
+    "type": "retweet"
+  },
+
+
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+
+   ,
+
+
+
+
+
+  {
+    "id": 31,
+    "hash": "linia",
+    "name": "LINIA",
+    "chain": "PHAROS TESTNET",
+    "chainID": 688689 ,
+    "address": "0xD9B4D2EFBe03CCf5d29cF01B95271be1dfd5E784",
+    "explorerURI": "https://testnet.pharosscan.xyz",
+    "description": " **LINIA** 🔥<br/>A Nft on Pharos Testnet 💎<br/>🎁 Experience exclusive seasonal benefits and giveaways✨",
+    "imageURI": "/images/nfts/linia.jpg",
+    "symbol": "PHRS",
+    "price": 0,
+    "tags": "phoenixar",
+    "faucetURI": "https://testnet.pharosnetwork.xyz/",
+    "priority": 2,
+    "linkTo": "unidrive",
+    "tasks": [
+      {
+        "title": "Follow On Twitter",
+        "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+        "type": "twitter"
+      },
+      {
+        "title": "Retweet The Post",
+        "href": "https://x.com/intent/retweet?tweet_id=2033984520664633582",
+        "type": "retweet"
+      },
+         {
+        "title": "Claim ACCESS PASS",
+        "href": "https://www.clarachain.net/access",
+        "type": "claim"
+      }
+
+    ]
+    
+  }
+
+
+     ,
+
+
+  {
+"id": 32,
+"hash": "inaya",
+"name": "INAYA",
+"chain": "Robinhood Chain Testnet",
+"chainID": 46630,
+"address":  "0x70B8e0F10cbcb9DE31D73a14f5B877e8a7e3c04a",
+"explorerURI": "https://explorer.testnet.chain.robinhood.com/0x70B8e0F10cbcb9DE31D73a14f5B877e8a7e3c04a",
+"description": " **INAYA** 🔥<br/>A Nft on Robinhood Chain Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/inaya.jpg",
+"symbol": "ETH",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://thirdweb.com/arc-testnet",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2034730506953298154",
+    "type": "retweet"
+  },
+
+
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+
+
+  ,
+
+
+
+
+
+
+{
+"id": 33,
+"hash": "stella",
+"name": "STELLA",
+"chain": "Arc Testnet",
+"chainID": 5042002,
+"address":  "0xF44D73aa5833D7143E96061e334819C1e12275F4",
+"explorerURI": "https://testnet.arcscan.app/address/0xF44D73aa5833D7143E96061e334819C1e12275F4",
+"description": " **STELLA** 🔥<br/>A Nft on Arc Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/stella.jpg",
+"symbol": "USDC",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://thirdweb.com/arc-testnet",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2036105733251711018",
+    "type": "retweet"
+  },
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+
+
+
+   ,
+
+
+  {
+"id": 34,
+"hash": "glacia",
+"name": "GLACIA",
+"chain": "Robinhood Chain Testnet",
+"chainID": 46630,
+"address":  "0x347DBa4F80cB1C425327761c511d6d7D175D6692",
+"explorerURI": "https://explorer.testnet.chain.robinhood.com/0x347DBa4F80cB1C425327761c511d6d7D175D6692",
+"description": " **GLACIA** 🔥<br/>A Nft on Robinhood Chain Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/glacia.jpg",
+"symbol": "ETH",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://thirdweb.com/arc-testnet",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2036880229210476953",
+    "type": "retweet"
+  },
+
+
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+,
+
+
+
+
+
+
+{
+"id": 35,
+"hash": "raphaela",
+"name": "RAPHAELA",
+"chain": "Arc Testnet",
+"chainID": 5042002,
+"address":  "0xdf4c7A2221bE23B895434D7a8D45aF0Aaf3Fc118",
+"explorerURI": "https://testnet.arcscan.app/address/0xdf4c7A2221bE23B895434D7a8D45aF0Aaf3Fc118",
+"description": " **RAPHAELA** 🔥<br/>A Nft on Arc Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/raphaela.jpg",
+"symbol": "USDC",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://thirdweb.com/arc-testnet",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2037602853611843864",
+    "type": "retweet"
+  },
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+
+
+  
+   ,
+
+
+  {
+"id": 36,
+"hash": "veloura",
+"name": "VELOURA",
+"chain": "Robinhood Chain Testnet",
+"chainID": 46630,
+"address":  "0x63a08c20071f709582ce02F3Db160A7B0Fc57eAA",
+"explorerURI": "https://explorer.testnet.chain.robinhood.com/0x63a08c20071f709582ce02F3Db160A7B0Fc57eAA",
+"description": " **VELOURA** 🔥<br/>A Nft on Robinhood Chain Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/veloura.jpg",
+"symbol": "ETH",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://faucet.testnet.chain.robinhood.com/",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2040149825317151096",
+    "type": "retweet"
+  },
+
+
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+
+  ,
+
+
+
+
+
+  {
+    "id": 37,
+    "hash": "alina",
+    "name": "ALINA",
+    "chain": "PHAROS TESTNET",
+    "chainID": 688689 ,
+    "address": "0xEba59249016bf13c14202273F2Dd6DF086A81071",
+    "explorerURI": "https://testnet.pharosscan.xyz",
+    "description": " **ALINA** 🔥<br/>A Nft on Pharos Testnet 💎<br/>🎁 Experience exclusive seasonal benefits and giveaways✨",
+    "imageURI": "/images/nfts/alina.jpg",
+    "symbol": "PHRS",
+    "price": 0,
+    "tags": "phoenixar",
+    "faucetURI": "https://testnet.pharosnetwork.xyz/",
+    "priority": 2,
+    "linkTo": "unidrive",
+    "tasks": [
+      {
+        "title": "Follow On Twitter",
+        "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+        "type": "twitter"
+      },
+      {
+        "title": "Retweet The Post",
+        "href": "https://x.com/intent/retweet?tweet_id=2041555885018013716",
+        "type": "retweet"
+      },
+         {
+        "title": "Claim ACCESS PASS",
+        "href": "https://www.clarachain.net/access",
+        "type": "claim"
+      }
+
+    ]
+    
+  }
+
+
+  ,
+
+
+
+
+
+
+{
+"id": 38,
+"hash": "samurai",
+"name": "SAMURAI",
+"chain": "Arc Testnet",
+"chainID": 5042002,
+"address":  "0x24f25cffFA36e06799D579f32721C9a843F354Cf",
+"explorerURI": "https://testnet.arcscan.app/address/0x24f25cffFA36e06799D579f32721C9a843F354Cf",
+"description": " **SAMURAI** 🔥<br/>A Nft on Arc Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/samurai.jpg",
+"symbol": "USDC",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://thirdweb.com/arc-testnet",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2043774660949749924",
+    "type": "retweet"
+  },
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+
+
+   ,
+
+
+  {
+"id": 39,
+"hash": "pirates",
+"name": "PIRATES",
+"chain": "Robinhood Chain Testnet",
+"chainID": 46630,
+"address":  "0x75335665763a77cfa9Da5576C1aD0EDa4A2BBAC9",
+"explorerURI": "https://explorer.testnet.chain.robinhood.com/0x75335665763a77cfa9Da5576C1aD0EDa4A2BBAC9",
+"description": " **PIRATES** 🔥<br/>A Nft on Robinhood Chain Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/pirates.png",
+"symbol": "ETH",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://faucet.testnet.chain.robinhood.com/",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2045417904204886189",
+    "type": "retweet"
+  },
+
+
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+
+
+  ,
+
+
+  {
+"id": 40,
+"hash": "rika",
+"name": "RIKA",
+"chain": "Robinhood Chain Testnet",
+"chainID": 46630,
+"address":  "0xbf70303160A2ba5A6A8C7E6E4b3E7D4Bf12B7e3C",
+"explorerURI": "https://explorer.testnet.chain.robinhood.com/0xbf70303160A2ba5A6A8C7E6E4b3E7D4Bf12B7e3C",
+"description": " **RIKA** 🔥<br/>A Nft on Robinhood Chain Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/rika.png",
+"symbol": "ETH",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://faucet.testnet.chain.robinhood.com/",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2047018946122162433",
+    "type": "retweet"
+  },
+
+
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+
+
+
+
+,
+
+
+
+
+
+
+{
+"id": 43,
+"hash": "saira",
+"name": "SAIRA",
+"chain": "Arc Testnet",
+"chainID": 5042002,
+"address":  "0xD07D5269deE9D8bb424057f986Cd3315CecF1d43",
+"explorerURI": "https://testnet.arcscan.app/address/0xD07D5269deE9D8bb424057f986Cd3315CecF1d43",
+"description": " **SAIRA** 🔥<br/>A Nft on Arc Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/saira.png",
+"symbol": "USDC",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://thirdweb.com/arc-testnet",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2048029478094532921",
+    "type": "retweet"
+  },
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+
+,
+
+
+
+
+
+
+{
+"id": 44,
+"hash": "elin",
+"name": "ELIN",
+"chain": "Dac Testnet",
+"chainID": 21894,
+"address":  "0x6A92E86Ec857603218e221D6996F09fcd3860F35",
+"explorerURI": "https://exptest.dachain.tech/address/0x6A92E86Ec857603218e221D6996F09fcd3860F35",
+"description": " **ELIN** 🔥<br/>A Nft on Arc Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/elin.png",
+"symbol": "tDACC",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://thirdweb.com/arc-testnet",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2048045575858512181",
+    "type": "retweet"
+  },
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+
+
+,
+
+
+
+
+
+
+{
+"id": 45,
+"hash": "arora",
+"name": "ARORA",
+"chain": "Dac Testnet",
+"chainID": 21894,
+"address":  "0x6A92E86Ec857603218e221D6996F09fcd3860F35",
+"explorerURI": "https://exptest.dachain.tech/address/0x6A92E86Ec857603218e221D6996F09fcd3860F35",
+"description": " **ARORA** 🔥<br/>A Nft on Dac Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/arora.png",
+"symbol": "tDACC",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://thirdweb.com/arc-testnet",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2049386684757021117",
+    "type": "retweet"
+  },
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+
+
+   ,
+
+
+  {
+"id": 46,
+"hash": "daria",
+"name": "DARIA",
+"chain": "Robinhood Chain Testnet",
+"chainID": 46630,
+"address":  "0xa36893342Fd0E51A22e79D5C3A24d36826800Bfd",
+"explorerURI": "https://explorer.testnet.chain.robinhood.com/0xa36893342Fd0E51A22e79D5C3A24d36826800Bfd",
+"description": " **DARIA** 🔥<br/>A Nft on Robinhood Chain Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/daria.jpg",
+"symbol": "ETH",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://faucet.testnet.chain.robinhood.com/",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2051006060635558142",
+    "type": "retweet"
+  },
+
+
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+
+
+
+
+  ,
+
+
+
+
+
+
+{
+"id": 47,
+"hash": "luria",
+"name": "LURIA",
+"chain": "Arc Testnet",
+"chainID": 5042002,
+"address":  "0xA1E3a6D0030eB9B105d623Ab50daff014F1d9c4a",
+"explorerURI": "https://testnet.arcscan.app/address/0xA1E3a6D0030eB9B105d623Ab50daff014F1d9c4a",
+"description": " **LURIA** 🔥<br/>A Nft on Arc Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/luria.jpg",
+"symbol": "USDC",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://thirdweb.com/arc-testnet",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2051180012125159610",
+    "type": "retweet"
+  },
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+
+
+  
+  ,
+
+
+
+
+
+
+{
+"id": 48,
+"hash": "kitty",
+"name": "KITTY",
+"chain": "Arc Testnet",
+"chainID": 5042002,
+"address":  "0x8267F288BdDA735ebDcb7B83e5D7eD290eB45b19",
+"explorerURI": "https://testnet.arcscan.app/address/0x8267F288BdDA735ebDcb7B83e5D7eD290eB45b19",
+"description": " **KITTY** 🔥<br/>A Nft on Arc Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/kitty.png",
+"symbol": "USDC",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://thirdweb.com/arc-testnet",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2052441352064094656",
+    "type": "retweet"
+  },
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+
+,
+
+
+
+
+
+
+{
+"id": 49,
+"hash": "salia",
+"name": "SALIA",
+"chain": "Dac Testnet",
+"chainID": 21894,
+"address":  "0x6A92E86Ec857603218e221D6996F09fcd3860F35",
+"explorerURI": "https://exptest.dachain.tech/address/0x6A92E86Ec857603218e221D6996F09fcd3860F35",
+"description": " **SALIA** 🔥<br/>A Nft on Dac Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/salia.jpg",
+"symbol": "tDACC",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://thirdweb.com/arc-testnet",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2053059828768243833",
+    "type": "retweet"
+  },
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+
+
+  ,
+
+
+
+
+
+
+{
+"id": 50,
+"hash": "isla",
+"name": "ISLA",
+"chain": "Dac Testnet",
+"chainID": 21894,
+"address":  "0xc93e2969403e82DfEDd72B4AF901c26D8CCA537E",
+"explorerURI": "https://exptest.dachain.tech/address",
+"description": " **ISLA** 🔥<br/>A Nft on Dac Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/isla.png",
+"symbol": "tDACC",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://thirdweb.com/arc-testnet",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2053586045204369434",
+    "type": "retweet"
+  },
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+
+
+   ,
+
+
+
+
+
+
+{
+"id": 51,
+"hash": "mewao",
+"name": "MEWAO",
+"chain": "Dac Testnet",
+"chainID": 21894,
+"address":  "0xc93e2969403e82DfEDd72B4AF901c26D8CCA537E",
+"explorerURI": "https://exptest.dachain.tech/address",
+"description": " **MEWAO** 🔥<br/>A Nft on Dac Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/mewao.jpg",
+"symbol": "tDACC",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://thirdweb.com/arc-testnet",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2054555015017288115",
+    "type": "retweet"
+  },
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+
+ ,
+
+
+
+
+
+
+{
+"id": 52,
+"hash": "panthar",
+"name": "PANTHAR",
+"chain": "Dac Testnet",
+"chainID": 21894,
+"address":  "0xc93e2969403e82DfEDd72B4AF901c26D8CCA537E",
+"explorerURI": "https://exptest.dachain.tech/address",
+"description": " **PANTHAR** 🔥<br/>A Nft on Dac Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/panthar.png",
+"symbol": "tDACC",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://thirdweb.com/arc-testnet",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2055273695539835085",
+    "type": "retweet"
+  },
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+
+
+   ,
+
+
+
+
+
+
+{
+"id": 53,
+"hash": "eresco",
+"name": "ERESCO",
+"chain": "Arc Testnet",
+"chainID": 5042002,
+"address":  "0x1E9B2de5cCE8CdDA82311BD6C468ec937d1a4498",
+"explorerURI": "https://testnet.arcscan.app/address/0x1E9B2de5cCE8CdDA82311BD6C468ec937d1a4498",
+"description": " **ERESCO** 🔥<br/>A Nft on Arc Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/eresco.jpg",
+"symbol": "USDC",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://thirdweb.com/arc-testnet",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2056088688548020580",
+    "type": "retweet"
+  },
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+,
+
+
+
+
+
+
+{
+"id": 54,
+"hash": "nomad",
+"name": "NOMAD",
+"chain": "Dac Testnet",
+"chainID": 21894,
+"address":  "0xc93e2969403e82DfEDd72B4AF901c26D8CCA537E",
+"explorerURI": "https://exptest.dachain.tech/address",
+"description": " **NOMAD** 🔥<br/>A Nft on Dac Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/nomad.jpg",
+"symbol": "tDACC",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://inception.dachain.io/",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2057043078670954945",
+    "type": "retweet"
+  },
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+
+
+   ,
+
+
+
+
+
+
+{
+"id": 55,
+"hash": "vexa",
+"name": "VEXA",
+"chain": "Arc Testnet",
+"chainID": 5042002,
+"address":  "0x4183b5d1Bd1Af379f1c492060Ef78F9ed888f0db",
+"explorerURI": "https://testnet.arcscan.app/address/0x4183b5d1Bd1Af379f1c492060Ef78F9ed888f0db",
+"description": " **VEXA** 🔥<br/>A Nft on Arc Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/vexa.png",
+"symbol": "USDC",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://thirdweb.com/arc-testnet",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2057439571307385030",
+    "type": "retweet"
+  },
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
