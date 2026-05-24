@@ -2,7 +2,7 @@
   {
     "title": "👋 Introduction",
     "url": "/docs/introduction",
-    "description": "Get started with Nerzo",
+    "description": "Get started with Clara",
     "next": {
       "title": "Technology",
       "url": "/docs/technology"
@@ -11,7 +11,7 @@
   {
     "title": "Technology",
     "url": "/docs/technology",
-    "description": "Learn about the technology behind Nerzo",
+    "description": "Learn about the technology behind Clara",
     "prev": {
       "title": "👋 Introduction",
       "url": "/docs/introduction"
