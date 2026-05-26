@@ -2343,6 +2343,51 @@
 }
 
 
+     ,
+
+
+
+
+
+
+{
+"id": 56,
+"hash": "assassin",
+"name": "ASSASSIN",
+"chain": "Arc Testnet",
+"chainID": 5042002,
+"address":  "0x8411F29e5F4DCE47e144914801856886ac08c8e1",
+"explorerURI": "https://testnet.arcscan.app/address/0x8411F29e5F4DCE47e144914801856886ac08c8e1",
+"description": " **ASSASSIN** 🔥<br/>A Nft on Arc Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/assassin.jpg",
+"symbol": "USDC",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://thirdweb.com/arc-testnet",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2057439571307385030",
+    "type": "retweet"
+  },
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+
+
 
 
 
