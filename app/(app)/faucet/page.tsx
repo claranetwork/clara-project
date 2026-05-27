@@ -49,7 +49,7 @@ const FAUCET_CONFIG = {
     explorerUrl:
       "https://basescan.org/address/0x87DC0a9455f00C6426877cD5b8A7E14404acf748",
   },
-  retweetPostUrl: "https://x.com/intent/post?url=https%3A%2F%2Fx.com%2FClaraChain%2Fstatus%2F2058613954159808710&text=Claim%20%24USDC%20FAUCET%20with%20CLARA%20on%20ARC%20Testnet%20%40arc",
+  retweetPostUrl: "https://x.com/intent/post?url=https%3A%2F%2Fx.com%2FClaraChain%2Fstatus%2F2059558449609121865&text=Claim%20%24USDC%20FAUCET%20with%20CLARA%20on%20ARC%20Testnet%20%40arc",
   networks: [
     // ── Temporarily disabled networks ──
     // Uncomment any block below (and the matching entry in
