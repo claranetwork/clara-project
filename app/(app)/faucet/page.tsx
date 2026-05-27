@@ -49,7 +49,7 @@ const FAUCET_CONFIG = {
     explorerUrl:
       "https://basescan.org/address/0x87DC0a9455f00C6426877cD5b8A7E14404acf748",
   },
-  retweetPostUrl: "https://x.com/intent/post?url=https%3A%2F%2Fx.com%2FClaraChain%2Fstatus%2F2059558449609121865&text=Claim%20%24USDC%20FAUCET%20with%20CLARA%20on%20ARC%20Testnet%20%40arc",
+  retweetPostUrl: "https://x.com/intent/post?url=https%3A%2F%2Fx.com%2FDrazeLab%2Fstatus%2F2042694730564469010&text=Claim%20%24USDC%20FAUCET%20with%20DRAZE%20on%20ARC%20Testnet%20%40arc%20testnet",
   networks: [
     // ── Temporarily disabled networks ──
     // Uncomment any block below (and the matching entry in
@@ -253,12 +253,15 @@ function FaucetPageContent() {
     selectedFaucetMatch ??
     FAUCET_CONFIG.networks.find((network) => network.id === "robinhood")!;
   const account = useActiveAccount();
+  const activeChain = useActiveWalletChain();
+  const switchChain = useSwitchActiveWalletChain();
   const { toast } = useToast();
 
   const [now, setNow] = useState(Date.now());
   const [tweetLink, setTweetLink] = useState("");
   const [retweetVerified, setRetweetVerified] = useState(false);
   const [isClaiming, setIsClaiming] = useState(false);
+  const [accessPassMinting, setAccessPassMinting] = useState(false);
 
   const {
     data: accessPassBalance,
@@ -311,40 +314,74 @@ function FaucetPageContent() {
     cooldownMsLeft === 0 &&
     !isClaiming;
 
-  const handleRetweetCheck = () => {
-    if (!tweetLink.trim()) {
+  // Auto-verify the retweet link as the user types. Mirrors the previous
+  // handleRetweetCheck logic but without a button — the green/red mark
+  // updates immediately when the URL becomes valid.
+  const verifyRetweet = (value: string) => {
+    const pastedId = tweetStatusId(value);
+    const ok =
+      pastedId !== null && (!targetTweetId || pastedId !== targetTweetId);
+    setRetweetVerified(ok);
+  };
+
+  // Lifted from ClaimAccessPassButton so both that card and the inline
+  // "Claim Access Pass" action on the task row can trigger the same mint.
+  const handleClaimAccessPass = async () => {
+    if (accessPassMinting) return;
+    if (!account?.address) {
       toast({
         variant: "destructive",
-        title: "Retweet link required",
-        description: "Paste your retweet link before checking.",
+        title: "Wallet not connected",
+        description: "Connect a wallet to mint the Access Pass.",
+      });
+      return;
+    }
+    if (hasAccessPass) {
+      toast({
+        title: "Already claimed",
+        description: "This wallet already owns an Access Pass.",
       });
       return;
     }
 
-    const pastedId = tweetStatusId(tweetLink);
-    if (!pastedId) {
-      toast({
-        variant: "destructive",
-        title: "Invalid retweet link",
-        description: "Paste a valid X/Twitter status link.",
-      });
-      return;
-    }
-    if (targetTweetId && pastedId === targetTweetId) {
-      toast({
-        variant: "destructive",
-        title: "Paste your retweet, not the original",
-        description:
-          "Open the post, retweet or quote it, then paste your quote tweet's link here.",
-      });
-      return;
-    }
+    try {
+      setAccessPassMinting(true);
 
-    setRetweetVerified(true);
-    toast({
-      title: "Retweet saved",
-      description: "Your retweet link is ready for this claim.",
-    });
+      if (activeChain?.id !== FAUCET_CONFIG.accessPass.chainId) {
+        toast({ description: "Switching network…" });
+        await switchChain(accessPassChain);
+      }
+
+      const transaction = claimTo({
+        contract: accessPassContract,
+        to: account.address,
+        quantity: BigInt(1),
+      });
+      const { transactionHash } = await sendTransaction({
+        transaction,
+        account,
+      });
+      await waitForReceipt({
+        client,
+        chain: accessPassChain,
+        transactionHash,
+      });
+
+      toast({
+        title: "Access Pass minted",
+        description: `Tx: ${shortenAddress(transactionHash)}`,
+      });
+      refetchAccessPass();
+    } catch (e) {
+      console.error("[handleClaimAccessPass] mint failed:", e);
+      toast({
+        variant: "destructive",
+        title: "Mint failed",
+        description: (e as Error)?.message ?? "Unknown error",
+      });
+    } finally {
+      setAccessPassMinting(false);
+    }
   };
 
   const handleRecheck = async () => {
@@ -534,7 +571,35 @@ function FaucetPageContent() {
                     loading={isAccessPassLoading}
                     icon={<ShieldCheck className="h-4 w-4" />}
                     title="Access Pass claimed"
-                    action={<VerificationMark complete={hasAccessPass} />}
+                    action={
+                      hasAccessPass ? (
+                        <VerificationMark complete />
+                      ) : (
+                        <button
+                          type="button"
+                          onClick={handleClaimAccessPass}
+                          disabled={accessPassMinting || isAccessPassLoading}
+                          className={cn(
+                            "inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-xs font-semibold text-white shadow-md transition-all duration-200",
+                            "bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 hover:-translate-y-0.5",
+                            (accessPassMinting || isAccessPassLoading) &&
+                              "cursor-not-allowed opacity-60 hover:translate-y-0"
+                          )}
+                        >
+                          {accessPassMinting ? (
+                            <>
+                              <Loader2 className="h-3 w-3 animate-spin" />
+                              Minting…
+                            </>
+                          ) : (
+                            <>
+                              <ShieldCheck className="h-3 w-3" />
+                              Claim Access Pass
+                            </>
+                          )}
+                        </button>
+                      )
+                    }
                   />
 
                   <div className="mt-4 space-y-3 border-t border-white/10 pt-4">
@@ -559,35 +624,45 @@ function FaucetPageContent() {
                         )
                       }
                     />
-                    <div className="flex flex-col gap-3 sm:flex-row">
-                      <div className="group relative grow">
-                        <Link2 className="absolute left-3 top-1/2 z-10 h-4 w-4 -translate-y-1/2 text-gray-400 transition-colors group-focus-within:text-fuchsia-300" />
-                        <Input
-                          value={tweetLink}
-                          onChange={(e) => {
-                            setTweetLink(e.target.value);
-                            setRetweetVerified(false);
-                          }}
-                          placeholder="Paste your retweet link"
-                          className="border-white/15 bg-black/30 pl-10 text-white placeholder:text-gray-500 transition-all focus-visible:border-fuchsia-400/60 focus-visible:bg-black/40 focus-visible:ring-2 focus-visible:ring-fuchsia-400/30"
-                        />
-                        {/* Focus glow */}
-                        <span
-                          aria-hidden
-                          className="pointer-events-none absolute -inset-0.5 rounded-md opacity-0 transition-opacity duration-300 group-focus-within:opacity-100"
-                          style={{
-                            background:
-                              "radial-gradient(circle at 30% 50%, rgba(217,70,239,0.18), transparent 70%)",
-                          }}
-                        />
-                      </div>
-                      <Button
-                        type="button"
-                        onClick={handleRetweetCheck}
-                        className="border border-white/10 bg-white/10 text-white transition-all duration-200 hover:-translate-y-0.5 hover:border-fuchsia-300/40 hover:bg-white/15"
-                      >
-                        Check
-                      </Button>
+                    <div className="group relative">
+                      <Link2 className="absolute left-3 top-1/2 z-10 h-4 w-4 -translate-y-1/2 text-gray-400 transition-colors group-focus-within:text-fuchsia-300" />
+                      <Input
+                        value={tweetLink}
+                        onChange={(e) => {
+                          const value = e.target.value;
+                          setTweetLink(value);
+                          // Auto-verify as the user types — no Check button.
+                          verifyRetweet(value);
+                        }}
+                        placeholder="Paste your retweet link"
+                        className={cn(
+                          "border-white/15 bg-black/30 pl-10 pr-10 text-white placeholder:text-gray-500 transition-all focus-visible:bg-black/40 focus-visible:ring-2",
+                          tweetLink.trim() === ""
+                            ? "focus-visible:border-fuchsia-400/60 focus-visible:ring-fuchsia-400/30"
+                            : retweetVerified
+                            ? "border-emerald-400/50 focus-visible:border-emerald-400/70 focus-visible:ring-emerald-400/30"
+                            : "border-red-400/50 focus-visible:border-red-400/70 focus-visible:ring-red-400/30"
+                        )}
+                      />
+                      {/* Inline live-validation indicator */}
+                      {tweetLink.trim() !== "" && (
+                        <span className="pointer-events-none absolute right-3 top-1/2 z-10 -translate-y-1/2">
+                          {retweetVerified ? (
+                            <CheckCircle2 className="h-4 w-4 text-emerald-400" />
+                          ) : (
+                            <AlertCircle className="h-4 w-4 text-red-400" />
+                          )}
+                        </span>
+                      )}
+                      {/* Focus glow */}
+                      <span
+                        aria-hidden
+                        className="pointer-events-none absolute -inset-0.5 rounded-md opacity-0 transition-opacity duration-300 group-focus-within:opacity-100"
+                        style={{
+                          background:
+                            "radial-gradient(circle at 30% 50%, rgba(217,70,239,0.18), transparent 70%)",
+                        }}
+                      />
                     </div>
                   </div>
                 </div>
@@ -636,7 +711,8 @@ function FaucetPageContent() {
               <div className="space-y-4">
                 <ClaimAccessPassButton
                   hasAccessPass={hasAccessPass}
-                  onMinted={refetchAccessPass}
+                  minting={accessPassMinting}
+                  onMint={handleClaimAccessPass}
                 />
               </div>
             </div>
@@ -1151,82 +1227,16 @@ function VerificationMark({ complete }: { complete: boolean }) {
 
 function ClaimAccessPassButton({
   hasAccessPass,
-  onMinted,
+  minting,
+  onMint,
 }: {
   hasAccessPass: boolean;
-  onMinted: () => void;
+  minting: boolean;
+  onMint: () => void;
 }) {
-  const account = useActiveAccount();
-  const activeChain = useActiveWalletChain();
-  const switchChain = useSwitchActiveWalletChain();
-  const { toast } = useToast();
-  const [minting, setMinting] = useState(false);
-
-  // Mirrors components/sections/mint-nft/form.tsx — Mint Now on the
-  // access pass NFT page. Switches the wallet to Base if needed, then
-  // calls claimTo on the same contract as nfts.json (hash="access").
-  const handleMint = async () => {
-    if (minting) return;
-    if (!account?.address) {
-      toast({
-        variant: "destructive",
-        title: "Wallet not connected",
-        description: "Connect a wallet to mint the Access Pass.",
-      });
-      return;
-    }
-    if (hasAccessPass) {
-      toast({
-        title: "Already claimed",
-        description: "This wallet already owns an Access Pass.",
-      });
-      return;
-    }
-
-    try {
-      setMinting(true);
-
-      // 1. Switch to the Access Pass chain (Base) if the wallet is elsewhere.
-      if (activeChain?.id !== FAUCET_CONFIG.accessPass.chainId) {
-        toast({ description: "Switching network…" });
-        await switchChain(accessPassChain);
-      }
-
-      // 2. Build and send the claim tx. claimTo automatically includes
-      //    the configured drop price (0.001 ETH) in the transaction value.
-      const transaction = claimTo({
-        contract: accessPassContract,
-        to: account.address,
-        quantity: BigInt(1),
-      });
-      const { transactionHash } = await sendTransaction({
-        transaction,
-        account,
-      });
-
-      // 3. Wait for confirmation on Base.
-      await waitForReceipt({
-        client,
-        chain: accessPassChain,
-        transactionHash,
-      });
-
-      toast({
-        title: "Access Pass minted",
-        description: `Tx: ${shortenAddress(transactionHash)}`,
-      });
-      onMinted();
-    } catch (e) {
-      console.error("[ClaimAccessPassButton] mint failed:", e);
-      toast({
-        variant: "destructive",
-        title: "Mint failed",
-        description: (e as Error)?.message ?? "Unknown error",
-      });
-    } finally {
-      setMinting(false);
-    }
-  };
+  // Presentational only — mint state and handler live in FaucetPageContent
+  // so both this card and the inline task-row action share the same flow.
+  const handleMint = onMint;
 
   const interactive = !minting && !hasAccessPass;
 
