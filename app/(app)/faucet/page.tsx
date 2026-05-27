@@ -676,7 +676,7 @@ function FaucetPageContent() {
                     className="h-12 border-white/15 bg-white/5 text-gray-200 backdrop-blur-md transition-all duration-200 hover:-translate-y-0.5 hover:border-fuchsia-300/40 hover:bg-white/10 hover:text-white"
                   >
                     <RefreshCw className="mr-2 h-4 w-4" />
-                    Recheck Eligibility
+                    Click here & Press button below 
                   </Button>
                   <ClaimMainButton
                     isEligible={isEligible}
