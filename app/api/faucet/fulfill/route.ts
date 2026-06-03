@@ -29,7 +29,7 @@ const ACCESS_PASS_COOLDOWN_MS = 24 * 60 * 60 * 1000;
 // app/(app)/faucet/page.tsx FAUCET_CONFIG.networks) to bring it back.
 const FAUCET_NETWORKS = {
   arc: {
-    amount: 75,
+    amount: 100,
     chain: arcTestnet,
     symbol: "USDC",
   },
