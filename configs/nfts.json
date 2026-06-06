@@ -2391,6 +2391,49 @@
 
 
 
+,
+
+
+
+
+
+
+{
+"id": 57,
+"hash": "shizu",
+"name": "SHIZU",
+"chain": "Dac Testnet",
+"chainID": 21894,
+"address":  "0xc93e2969403e82DfEDd72B4AF901c26D8CCA537E",
+"explorerURI": "https://exptest.dachain.tech/address",
+"description": " **SHIZU** 🔥<br/>A Nft on Dac Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/shizu.jpg",
+"symbol": "tDACC",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://inception.dachain.io/",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2057043078670954945",
+    "type": "retweet"
+  },
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
 
 
 
