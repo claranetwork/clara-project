@@ -2434,7 +2434,47 @@
 ]
 
 }
+ ,
 
+
+  {
+"id": 58,
+"hash": "robincat",
+"name": "ROBIN CAT",
+"chain": "Robinhood Chain Testnet",
+"chainID": 46630,
+"address":  "0xda6c77bfF25CFf128554c205d3644898D1106fE6",
+"explorerURI": "https://explorer.testnet.chain.robinhood.com/0xa36893342Fd0E51A22e79D5C3A24d36826800Bfd",
+"description": " **ROBIN CAT** 🔥<br/>A Nft on Robinhood Chain Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/robincat.jpg",
+"symbol": "ETH",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://faucet.testnet.chain.robinhood.com/",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2051006060635558142",
+    "type": "retweet"
+  },
+
+
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
 
 
 
