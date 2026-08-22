@@ -2560,6 +2560,49 @@
 }
 
 
+    ,
+
+
+  {
+"id": 61,
+"hash": "malvorax",
+"name": "MALVORAX",
+"chain": "Robinhood Chain Testnet",
+"chainID": 46630,
+"address":  "0x8940c97B072779BCB0789Ee8d894a88c7308c4CC",
+"explorerURI": "https://explorer.testnet.chain.robinhood.com/0x8940c97B072779BCB0789Ee8d894a88c7308c4CC",
+"description": " **MALVORAX** 🔥<br/>A Nft on Robinhood Chain Testnet 💎<br/>🎁 Unlock exclusive seasonal rewards, giveaways & more ✨",
+"imageURI": "/images/nfts/malvorax.jpg",
+"symbol": "ETH",
+"price": 0.0,
+"tags": "phoenixar",
+"faucetURI": "https://faucet.testnet.chain.robinhood.com/",
+"priority": 2,
+"linkTo": "unidrive",
+"tasks": [
+  {
+    "title": "Follow On Twitter",
+    "href": "https://x.com/intent/follow?screen_name=clarachainxyz",
+    "type": "twitter"
+  },
+  {
+    "title": "Retweet The Post",
+    "href": "https://x.com/intent/retweet?tweet_id=2084530438400561363",
+    "type": "retweet"
+  },
+
+
+     {
+    "title": "Check ACCESS PASS",
+    "href": "https://www.clarachain.net/access",
+    "type": "claim"
+  }
+
+]
+
+}
+
+
 
 
 
